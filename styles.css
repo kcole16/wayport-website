@@ -661,12 +661,18 @@ a:hover {
   gap: 8px;
 }
 
-@media (min-width: 640px) {
-  .footer-bottom {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
+.footer-legal-links a {
+  color: var(--text-dim);
+  margin-left: 6px;
+}
+
+.footer-legal-links a::before {
+  content: '\00b7';
+  margin-right: 6px;
+}
+
+.footer-legal-links a:hover {
+  color: var(--white);
 }
 
 .footer-bottom p {
