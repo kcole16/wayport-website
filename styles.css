@@ -751,6 +751,17 @@ a:hover {
   color: var(--accent);
 }
 
+.legal-notice {
+  font-size: 0.875rem !important;
+  color: var(--text-muted) !important;
+  line-height: 1.7;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px 20px;
+  margin-bottom: 16px;
+}
+
 /* --- Subtle animations --- */
 @media (prefers-reduced-motion: no-preference) {
   .hero-content,
