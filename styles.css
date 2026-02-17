@@ -688,6 +688,69 @@ a:hover {
   color: var(--accent);
 }
 
+/* --- Legal pages --- */
+.legal-content {
+  max-width: 720px;
+}
+
+.legal-content h1 {
+  font-family: var(--font-heading);
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--white);
+  margin-bottom: 8px;
+}
+
+.legal-effective {
+  font-size: 0.875rem;
+  color: var(--text-dim);
+  margin-bottom: 32px;
+}
+
+.legal-content h2 {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--white);
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+
+.legal-content h3 {
+  font-family: var(--font-heading);
+  font-size: 1.0625rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.legal-content p {
+  font-size: 0.9375rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+.legal-content ul {
+  margin: 0 0 16px 24px;
+  color: var(--text-muted);
+}
+
+.legal-content li {
+  font-size: 0.9375rem;
+  line-height: 1.7;
+  margin-bottom: 8px;
+}
+
+.legal-content strong {
+  color: var(--text);
+}
+
+.legal-content a {
+  color: var(--accent);
+}
+
 /* --- Subtle animations --- */
 @media (prefers-reduced-motion: no-preference) {
   .hero-content,
